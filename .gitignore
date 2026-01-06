@@ -1,0 +1,10 @@
+clarity/
+__pycache__/
+.env
+
+/frontend/node_modules/
+/frontend/build/
+/backend/__pycache__/
+/backend/.env
+/backend/venv/
+/backend/*.pyc
