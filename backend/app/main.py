@@ -14,10 +14,9 @@ app = FastAPI()
 
 # --- CORS BLOCK ---
 origins = [
-    "http://localhost:5173",  # React (Vite) default port
-    "http://localhost:3000",
-    "https://novartis-with-clarity.netlify.app/"
-    # React (Create-React-App) default port
+    "http://localhost:5173",
+    "http://127.0.0.1:8000",
+    "https://novartis-with-clarity.netlify.app", # Add your Netlify URL here
 ]
 
 app.add_middleware(
