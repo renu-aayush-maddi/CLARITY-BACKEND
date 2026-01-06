@@ -204,8 +204,8 @@ import re
 import logging
 from sqlalchemy.orm import Session
 from sqlalchemy import text, inspect
-from backend.app.utils.dataset_registry import DATASET_SPECS
-from backend.app.utils.smart_mapper import normalize_dataframe_columns, TARGET_SCHEMA
+from app.utils.dataset_registry import DATASET_SPECS
+from app.utils.smart_mapper import normalize_dataframe_columns, TARGET_SCHEMA
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

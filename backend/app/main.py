@@ -3,12 +3,12 @@
 from fastapi import FastAPI, UploadFile, File, Form, Depends # <--- Added Form
 from typing import List, Optional
 from sqlalchemy.orm import Session
-from backend.app.core.database import get_db
-from backend.app.utils.ingest_excel import ingest_file
+from app.core.database import get_db
+from app.utils.ingest_excel import ingest_file
 from fastapi.middleware.cors import CORSMiddleware
 
 # --- Import the new analytics router ---
-from backend.app.api import analytics,agent, chat,sentinel
+from app.api import analytics,agent, chat,sentinel
 
 app = FastAPI()
 
