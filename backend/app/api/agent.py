@@ -165,7 +165,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import text
 from dotenv import load_dotenv
 import os
-from backend.app.core.database import get_db
+from app.core.database import get_db
 
 # SDK IMPORTS
 from google import genai 

@@ -5,8 +5,8 @@ from sqlalchemy import text
 from dotenv import load_dotenv
 import os
 import time  # <--- Time tracking
-from backend.app.core.database import get_db
-from backend.app.api.analytics import log_ai_interaction  # <--- Import Logger
+from app.core.database import get_db
+from app.api.analytics import log_ai_interaction  # <--- Import Logger
 
 # SDK IMPORTS
 from google import genai
